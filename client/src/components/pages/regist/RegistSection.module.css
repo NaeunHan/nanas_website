@@ -1,0 +1,51 @@
+.registSection
+/* .regist-clause  */ {
+  padding-left: 20px;
+  padding-bottom: 50px;
+  display: flex;
+
+  border-bottom: 1px solid #ccc;
+
+  margin-bottom: 30px;
+}
+
+.registSection h3,
+.regist-clause h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 250px;
+}
+
+@media (max-width: 1020px) {
+  .registSection {
+    padding-bottom: 50px;
+  }
+
+  .registSection-title {
+    width: 150px;
+  }
+
+  .registSection h3,
+  .regist-clause h3 {
+    font-size: 20px;
+
+    margin-right: 70px;
+  }
+}
+
+@media (max-width: 750px) {
+  .registSection {
+    padding-bottom: 30px;
+  }
+
+  .registSection-title {
+    width: 150px;
+  }
+
+  .registSection h3,
+  .regist-clause h3 {
+    font-size: 18px;
+
+    margin-right: 80px;
+  }
+}

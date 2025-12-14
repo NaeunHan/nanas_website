@@ -1,0 +1,32 @@
+.productReview {
+  padding: 0 100px;
+}
+
+.productReview-title {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+
+.productReview-amount {
+  color: var(--red-color);
+  margin-left: 10px;
+}
+
+@media (max-width: 1020px) {
+  .productReview-title {
+    font-size: 18px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .productReview-title {
+    font-size: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,113 @@
+.MyPointCheck {
+  margin-left: 30px;
+}
+
+.check-content-wrap {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+
+  width: 1000px;
+}
+
+.check-content-wrap div {
+  background-color: rgb(250, 250, 250);
+  padding: 10px;
+  width: 100%;
+}
+.check-content-item {
+  margin-right: 30px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+
+.check-content-item div:first-child {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.check-content-item span {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--red-color);
+}
+
+.check-wrap-date {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  margin-top: 30px;
+  padding: 15px;
+}
+
+.check-date-item {
+  align-items: center;
+  display: flex;
+
+  font-size: 16px;
+}
+
+.check-date-item input {
+  cursor: pointer;
+
+  padding: 3px;
+}
+
+.check-date-item__span {
+  margin: 0 10px;
+}
+
+.check-date-button {
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--navy-color);
+  color: white;
+  border-radius: 5px;
+  padding: 8px 15px;
+  margin-left: 15px;
+}
+
+.pointcheck-content-null {
+  margin-top: 50px;
+}
+
+.select-wrap {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+@media (max-width: 1020px) {
+  .MyPointCheck {
+    margin-left: 0px;
+  }
+
+  .check-content-wrap {
+    margin-bottom: 30px;
+
+    width: 900px;
+  }
+
+  .pointcheck-content-null {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 750px) {
+  .check-content-wrap {
+    margin-bottom: 30px;
+
+    width: 600px;
+  }
+
+  .pointcheck-content-null {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+}

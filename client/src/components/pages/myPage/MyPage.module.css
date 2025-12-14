@@ -1,0 +1,157 @@
+.MyPage {
+  margin-bottom: 30px;
+}
+
+.mypage-wrap-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.mypage-title-left {
+  display: flex;
+  align-items: center;
+}
+.mypage-wrap-profile img {
+  width: 60%;
+}
+
+.mypage-wrap-profile {
+  width: 100px;
+  margin-right: 5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypage-title-left span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.mypage-title-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mypage-title-right div:first-child {
+  margin-bottom: 10px;
+
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgb(220, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mypage-title-icon {
+  color: var(--navy-color);
+
+  font-size: 28px;
+}
+
+.mypage-title-right div:last-child {
+  font-size: 16px;
+  color: rgb(160, 160, 160);
+}
+
+/* content */
+.mypage-quick-btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+}
+.mypage-quick-item {
+  margin: 0 10px;
+  padding: 20px;
+  width: 23%;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+}
+
+.mypage-quick-item a {
+  color: var(--navy-color);
+}
+
+.mypage-quick-item a:hover {
+  text-decoration: none;
+}
+
+.mypage-quick-item div:last-child {
+  margin-top: 15px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.mypage-wrap-bottom {
+  display: flex;
+  margin-top: 80px;
+}
+
+.aside_1400 {
+  display: block;
+}
+
+.triger {
+  display: none;
+  margin-left: 20px;
+  font-size: 32px;
+  color: var(--navy-color);
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .triger {
+    display: block;
+  }
+
+  .aside_1400 {
+    display: none;
+  }
+
+  .triger:hover {
+    color: var(--red-color);
+  }
+  .mypage-wrap-bottom {
+    display: flex;
+    margin-top: 30px;
+
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 750px) {
+  /* content */
+
+  .mypage-quick-item {
+    width: 23%;
+    font-size: 18px;
+  }
+
+  .mypage-quick-item a {
+    color: var(--navy-color);
+  }
+
+  .mypage-quick-item a:hover {
+    text-decoration: none;
+  }
+
+  .mypage-quick-item div:last-child {
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+}

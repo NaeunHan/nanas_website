@@ -1,0 +1,80 @@
+.adminUser {
+  background-color: white;
+  width: 800px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 40px;
+}
+.adminUser-wrap {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.adminUser-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.adminUser-list {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(140, 140, 140);
+}
+
+.adminUser-userList {
+  font-size: 12px;
+}
+
+.adminUser-userList thead td {
+  font-weight: bold;
+  background-color: var(--navy-color);
+  color: white;
+  padding: 10px;
+}
+
+.adminUser-userList tr {
+  padding: 0 20px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.adminUser-userList td {
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.adminUser-userList td:nth-child(1),
+.adminUser-userList th:nth-child(1) {
+  width: 5%;
+}
+
+.adminUser-userList td:nth-child(2),
+.adminUser-userList th:nth-child(2) {
+  width: 10%;
+}
+
+.adminUser-userList td:nth-child(3),
+.adminUser-userList th:nth-child(3) {
+  width: 15%;
+}
+
+.adminUser-userList td:nth-child(4),
+.adminUser-userList th:nth-child(4) {
+  width: 10%;
+}
+
+.adminUser-userList td:nth-child(5),
+.adminUser-userList th:nth-child(5) {
+  width: 20%;
+}
+
+.adminUser-userList-search {
+  padding: 4px 8px;
+  border: 1px solid #999;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+}

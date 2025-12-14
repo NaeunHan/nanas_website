@@ -1,0 +1,116 @@
+/* 배송 상품 정보 */
+
+.orderProduct {
+  margin-bottom: 50px;
+}
+
+.orderProduct h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.orderProduct-info {
+  border: 1px solid #e4e4e4;
+  margin-bottom: 50px;
+}
+
+.orderProduct-info__deliveryDate {
+  background-color: #f4f4f4;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  padding-left: 20px;
+  height: 50px;
+
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.orderProduct-info__deliveryDate__date {
+  color: rgb(0, 137, 25);
+  margin: 0 5px;
+}
+
+.orderProduct-info__content {
+  display: flex;
+  padding: 20px;
+}
+
+.orderProduct-info__content__img {
+  width: 150px;
+  height: 150px;
+
+  margin-right: 100px;
+
+  overflow: hidden;
+}
+.orderProduct-info__content__img img {
+  width: 100%;
+  height: 100%;
+}
+
+.orderProduct-info-content__info {
+  width: 700px;
+
+  padding: 20px 0;
+}
+
+.orderProduct-info-content__info p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1020px) {
+  .orderProduct h4 {
+    font-size: 18px;
+  }
+
+  .orderProduct-info__deliveryDate {
+    height: 40px;
+
+    font-size: 15px;
+  }
+
+  .orderProduct-info__content {
+    padding: 16px;
+  }
+
+  .orderProduct-info__content__img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .orderProduct-info-content__info {
+    padding: 0;
+  }
+
+  .orderProduct-info-content__info p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .orderProduct h4 {
+    font-size: 16px;
+  }
+
+  .orderProduct-info__deliveryDate {
+    font-size: 14px;
+  }
+
+  .orderProduct-info__content {
+    padding: 14px;
+  }
+
+  .orderProduct-info__content__img {
+    width: 140px;
+    height: 100px;
+  }
+}

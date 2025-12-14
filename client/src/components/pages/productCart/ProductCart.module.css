@@ -1,0 +1,236 @@
+.productcart-wrapper {
+  display: flex;
+}
+.productcart-cart {
+  width: 70%;
+  margin-right: 5%;
+}
+
+.productcart-cart-handler {
+  padding: 40px 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.productcart-cart-handler__allcheck {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.productcart-cart-handler__allcheck input {
+  width: 24px;
+  height: 24px;
+  margin-right: 12px;
+}
+
+.productcart-cart-handler__delete {
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+}
+
+.productcart-order {
+  width: 25%;
+  height: 450px;
+  background-color: white;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px;
+  position: sticky;
+  top: 50px;
+  padding: 20px 20px;
+}
+.productcart-order-point {
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #ccc;
+}
+.productcart-order-point h3,
+.productcart-order-purchase h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.productcart-order-point p,
+.productcart-order-purchase p {
+  text-align: left;
+  font-size: 14px;
+}
+.productcart-order-purchase {
+  padding: 40px 0;
+}
+.productcart-order-purchase-product,
+.productcart-order-purchase-discount,
+.productcart-order-purchase-total {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.productcart-order-purchase-discount {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+.productcart-order-purchase-total {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.productcart-order-purchase-total__title {
+  font-weight: bold;
+}
+
+.productcart-order-purchase-total__price {
+  font-size: 26px;
+
+  font-weight: bold;
+}
+
+.productcart-order-purchase-btn input {
+  width: 100%;
+  padding: 20px 16px;
+  border: 0;
+  background-color: #f05556;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+@media (max-width: 1020px) {
+  .productcart-cart {
+    width: 60%;
+    margin-right: 10%;
+  }
+
+  .productcart-cart-handler {
+    padding: 20px 15px;
+
+    margin-bottom: 20px;
+  }
+
+  .productcart-cart-handler__allcheck {
+    font-size: 16px;
+  }
+
+  .productcart-cart-handler__allcheck input {
+    width: 18px;
+    height: 18px;
+  }
+
+  .productcart-cart-handler__delete {
+    font-size: 16px;
+  }
+
+  .productcart-order {
+    height: 350px;
+  }
+
+  .productcart-order-point {
+    padding-bottom: 20px;
+  }
+  .productcart-order-point h3,
+  .productcart-order-purchase h3 {
+    font-size: 16px;
+
+    margin-bottom: 20px;
+  }
+  .productcart-order-point p,
+  .productcart-order-purchase p {
+    font-size: 12px;
+  }
+  .productcart-order-purchase {
+    padding: 30px 0;
+  }
+  .productcart-order-purchase-product,
+  .productcart-order-purchase-discount,
+  .productcart-order-purchase-total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .productcart-order-purchase-discount {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .productcart-order-purchase-total {
+    margin-bottom: 20px;
+  }
+
+  .productcart-order-purchase-total__price {
+    font-size: 18px;
+
+    font-weight: bold;
+  }
+
+  .productcart-order-purchase-btn input {
+    padding: 16px 12px;
+
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .productcart-cart-handler {
+    padding: 10px 8px;
+  }
+
+  .productcart-cart-handler__allcheck {
+    font-size: 14px;
+  }
+
+  .productcart-cart-handler__allcheck input {
+    width: 14px;
+    height: 14px;
+  }
+
+  .productcart-cart-handler__delete {
+    font-size: 14px;
+  }
+
+  .productcart-order {
+    height: 300px;
+  }
+
+  .productcart-order-point {
+    padding-bottom: 10px;
+  }
+  .productcart-order-point h3,
+  .productcart-order-purchase h3 {
+    font-size: 14px;
+
+    margin-bottom: 16px;
+  }
+  .productcart-order-point p,
+  .productcart-order-purchase p {
+    font-size: 12px;
+  }
+  .productcart-order-purchase {
+    padding: 20px 0;
+  }
+
+  .productcart-order-purchase-discount {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .productcart-order-purchase-total {
+    margin-bottom: 20px;
+  }
+
+  .productcart-order-purchase-total__price {
+    font-size: 14px;
+
+    font-weight: bold;
+  }
+
+  .productcart-order-purchase-btn input {
+    padding: 12px 10px;
+
+    font-size: 14px;
+  }
+}

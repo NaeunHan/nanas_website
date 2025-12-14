@@ -1,0 +1,31 @@
+.App {
+  width: 1280px;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.main {
+  margin: 0 auto;
+  padding-bottom: 200px;
+
+  width: 1280px;
+}
+
+@media (min-width: 751px) and (max-width: 1020px) {
+  .App {
+    width: 1020px;
+  }
+  .main {
+    width: 900px;
+  }
+}
+
+@media (max-width: 750px) {
+  .App {
+    width: 750px;
+  }
+  .main {
+    width: 650px;
+  }
+}

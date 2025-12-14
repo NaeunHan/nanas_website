@@ -1,0 +1,174 @@
+.OrderDetail {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.detail-wrap-top {
+  width: 1000px;
+
+  border: 1px solid var(--gray-color);
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.detail-top-item {
+  font-size: 18px;
+  font-weight: bold;
+
+  border: 1px solid var(--navy-color);
+  border-radius: 5px;
+
+  padding: 15px;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.detail-top-item span {
+  color: var(--red-color);
+
+  margin-left: 15px;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  border: 1px solid var(--gray-color);
+}
+
+.detail-wrap-content,
+.detail-wrap-pay,
+detail-wrap-addr {
+  width: 1000px;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.detail-wrap-content thead tr,
+.detail-wrap-pay thead tr {
+  border-top: 3px solid var(--navy-color);
+  border-bottom: 1px solid var(--navy-color);
+}
+
+.detail-wrap-content thead tr td,
+.detail-pay-content thead tr td {
+  font-weight: bold;
+
+  text-align: center;
+
+  padding: 15px;
+}
+
+.detail-wrap-content tbody tr td {
+  font-size: 18px;
+
+  padding: 15px;
+}
+
+.detail-wrap-content td:first-child {
+  width: 20%;
+}
+
+.detail-wrap-content td:nth-child(2) {
+  width: 40%;
+}
+
+.detail-wrap-content td:nth-child(4) {
+  background-color: rgb(236, 236, 236);
+}
+
+.price-td {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+}
+
+.seller-td {
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  align-items: center;
+}
+
+.detail-pay-title h4,
+.detail-wrap-addr h4 {
+  font-size: 18px;
+  font-weight: bold;
+
+  margin-bottom: 15px;
+}
+
+.detail-pay-content tbody td {
+  border-right: 1px solid var(--navy-color);
+}
+
+.detail-pay-content tbody td div {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 15px;
+}
+
+.detail-pay-content tbody td:last-child {
+  font-weight: bold;
+
+  background-color: var(--navy-color);
+  color: white;
+}
+
+.detail-wrap-addr thead tr {
+  border-top: 3px solid var(--navy-color);
+}
+
+.detail-wrap-addr table td {
+  padding: 15px;
+}
+
+.detail-wrap-addr table td:nth-child(2) {
+  border-right: 1px solid var(--navy-color);
+}
+
+.detail-wrap-addr table td:first-child {
+  background-color: var(--gray-color);
+  width: 10%;
+}
+
+.detail-addr-content table td:first-child {
+  text-align: left;
+
+  padding-left: 15px;
+}
+
+.detail-addr-content thead td:last-child {
+  width: 30%;
+
+  border-bottom: 1px solid var(--navy-color);
+}
+
+.detail-addr-content tbody tr:last-child {
+  padding: 10px;
+}
+
+.detail-addr-content tbody td:last-child div {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-addr-content tbody td:last-child div span {
+  margin-bottom: 15px;
+}

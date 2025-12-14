@@ -1,0 +1,45 @@
+.default-wrap {
+  border: 1px solid var(--navy-color);
+  border-radius: 15px;
+
+  padding: 30px;
+
+  width: 800px;
+}
+
+.default-item {
+  margin-bottom: 10px;
+
+  display: flex;
+}
+
+.default-item div:first-child {
+  width: 100px;
+}
+
+.default-wrap h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 1020px) {
+  .default-wrap {
+    width: 700px;
+  }
+}
+
+@media (max-width: 750px) {
+  .default-wrap {
+    width: 620px;
+  }
+
+  .default-item {
+    margin-bottom: 10px;
+
+    display: flex;
+  }
+
+  .default-wrap h2 {
+    font-size: 16px;
+  }
+}

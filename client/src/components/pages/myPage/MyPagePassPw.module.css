@@ -1,0 +1,116 @@
+.MyPagePassPw table {
+  width: 100%;
+
+  align-items: center;
+}
+
+.MyPagePassPw table thead tr {
+  border-top: 3px solid var(--navy-color);
+
+  align-items: center;
+}
+
+.MyPagePassPw table td:first-child {
+  font-size: 18px;
+  font-weight: bold;
+
+  width: 30%;
+}
+
+.MyPagePassPw table td:first-child h2 {
+  margin-left: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.MyPagePassPw table tr {
+  border-bottom: 1px solid gray;
+}
+
+.passpw-item-input {
+  display: flex;
+  align-items: center;
+}
+
+.passpw-item-input input {
+  padding: 10px;
+
+  width: 100%;
+}
+
+.id-input {
+  border: none;
+}
+
+.passwd-show-icon {
+  position: relative;
+  left: 148px;
+  top: -25px;
+}
+
+.addr-zipcode-input {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.addr-zipcode-input div:first-child {
+  margin-right: 10px;
+}
+
+.addr-zipcode-input button {
+  font-weight: bold;
+  color: var(--navy-color);
+
+  width: 100px;
+
+  padding: 8px;
+
+  border: 2px solid var(--navy-color);
+}
+.addr-addr-input div {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.addr-detail-input div {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.sectionUserInfoInput-error {
+  color: var(--red-color);
+
+  font-weight: bold;
+
+  margin-left: 30px;
+}
+
+.err-pw {
+  margin-bottom: 20px;
+}
+
+.passpw-wrap-button {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 50px;
+}
+
+.passpw-wrap-button button {
+  font-size: 18px;
+  font-weight: bold;
+
+  border: 1px solid var(--navy-color);
+
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.left-button {
+  background-color: var(--navy-color);
+  color: white;
+}

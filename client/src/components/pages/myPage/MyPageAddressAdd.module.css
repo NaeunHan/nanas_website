@@ -1,0 +1,104 @@
+.MyPageAddressAdd {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-left: 100px;
+}
+.addr-wrap-input {
+  width: 300px;
+
+  margin-bottom: 10px;
+}
+
+.MyPageAddressAdd table {
+  width: 100%;
+
+  margin-top: 50px;
+}
+.MyPageAddressAdd table h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.MyPageAddressAdd table input {
+  width: 100%;
+  padding: 10px;
+}
+
+.MyPageAddressAdd table thead tr {
+  border-top: 3px solid var(--navy-color);
+}
+
+.MyPageAddressAdd table td:first-child {
+  width: 30%;
+
+  padding-left: 30px;
+}
+
+.MyPageAddressAdd table td {
+  padding: 30px;
+}
+
+.MyPageAddressAdd table tbody tr {
+  border-top: 1px solid gray;
+}
+
+.addr-wrap-top {
+  width: 500px;
+  display: flex;
+}
+
+.addr-wrap-top div:first-child {
+  width: 150px;
+  margin-right: 20px;
+}
+
+.addr-wrap-top div:last-child {
+  width: 80px;
+}
+
+.addr-wrap-top div button {
+  font-weight: bold;
+  color: var(--navy-color);
+
+  padding: 8px;
+  border: 2px solid var(--navy-color);
+  text-align: center;
+}
+
+.MyPageAddressAdd table tbody tr:last-child td {
+  align-items: center;
+}
+
+.addr-wrap-button {
+  display: flex;
+  justify-content: center;
+
+  margin-top: 30px;
+}
+
+.addr-wrap-button button {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--navy-color);
+
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  margin-right: 10px;
+  margin-left: 10px;
+
+  border: 1px solid var(--navy-color);
+}
+
+.addr-wrap-button div:first-child button {
+  background-color: var(--navy-color);
+  color: white;
+}
+
+small {
+  color: red;
+}

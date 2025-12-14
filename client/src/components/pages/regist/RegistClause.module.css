@@ -1,0 +1,76 @@
+.RegistClause {
+  display: flex;
+  flex-direction: column;
+}
+
+.RegistClause h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.RegistClause span {
+  color: #ff4443;
+}
+
+.RegistClause-content {
+  width: 800px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+
+  overflow: auto;
+  scrollbar-width: 20px;
+}
+
+.RegistClause-content p {
+  padding: 20px;
+  line-height: 2;
+}
+
+.RegistClause-content-check {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.RegistClause-content-check input {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1020px) {
+  .RegistClause h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .RegistClause-content {
+    width: 600px;
+  }
+
+  .RegistClause-content-check input {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .RegistClause h3 {
+    font-size: 14px;
+  }
+
+  .RegistClause-content {
+    width: 450px;
+  }
+  .RegistClause-content p {
+    padding: 16px;
+    line-height: 1.5;
+  }
+
+  .RegistClause-content-check input {
+    width: 12px;
+    height: 12px;
+  }
+}

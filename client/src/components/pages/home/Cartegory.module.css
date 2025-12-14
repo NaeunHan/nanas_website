@@ -1,0 +1,10 @@
+.category {
+  padding: 0 50px;
+  margin-bottom: 80px;
+  height: 120px;
+  border: 1px solid var(--navy-color);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

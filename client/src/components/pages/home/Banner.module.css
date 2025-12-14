@@ -1,0 +1,27 @@
+.banner {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  row-gap: 80px;
+  column-gap: 5%;
+
+  margin-bottom: 50px;
+  padding: 30px 0;
+}
+
+@media (min-width: 751px) and (max-width: 1020px) {
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(3, 190px);
+    row-gap: 50px;
+    column-gap: 2%;
+  }
+}
+
+@media (max-width: 750px) {
+  .banner {
+    display: grid;
+    grid-template-columns: repeat(3, 140px);
+    row-gap: 50px;
+    column-gap: 2%;
+  }
+}

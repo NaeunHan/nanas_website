@@ -1,0 +1,56 @@
+/* 구매자 정보 컴포넌트  */
+.orderConsumer {
+  margin-bottom: 50px;
+}
+
+.orderConsumer h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.orderConsumer-table {
+  font-size: 14px;
+  color: #333;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid #ccc;
+}
+
+.orderConsumer-table__col1 {
+  width: 150px;
+  border: solid #e4e4e4;
+  border-width: 0 1px 1px 0;
+  padding: 10px 10px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.orderConsumer-table__col2 {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 16px;
+}
+
+@media (max-width: 1020px) {
+  /* 구매자 정보 컴포넌트  */
+
+  .orderConsumer h4 {
+    font-size: 18px;
+  }
+
+  .orderConsumer-table {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  /* 구매자 정보 컴포넌트  */
+  .orderConsumer {
+    margin-bottom: 30px;
+  }
+
+  .orderConsumer h4 {
+    font-size: 16px;
+  }
+}

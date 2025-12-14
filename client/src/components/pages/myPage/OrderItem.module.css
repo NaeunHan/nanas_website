@@ -1,0 +1,143 @@
+.OrderItem {
+  width: 1000px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgb(220, 220, 220);
+  padding: 25px;
+  margin-bottom: 40px;
+  background-color: rgb(240, 240, 240);
+
+  position: relative;
+}
+
+.orderitem-wrap-title {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.orderitem-wrap-title h2 {
+  font-weight: bold;
+}
+
+.orderitem-wrap-title button {
+  background-color: var(--navy-color);
+  color: white;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+
+  font-weight: bold;
+}
+
+.orderitem-wrap-items {
+  display: flex;
+  border: 1px solid var(--gray-color);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  align-items: center;
+  background-color: white;
+}
+
+.orderitem-wrap-left {
+  width: 80%;
+}
+
+.orderitem-item-title {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.orderitem-item-title span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.orderitem-item-content {
+  margin-top: 20px;
+  display: flex;
+}
+
+.orderitem-item-img {
+  width: 100px;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.orderitem-item-img img {
+  width: 100%;
+}
+
+.orderitem-item-porfile {
+  width: 500px;
+  padding-left: 40px;
+}
+
+.orderitem-item-porfile h4 {
+  font-size: 16px;
+  width: 500px;
+  font-weight: bold;
+
+  text-align: left;
+}
+
+.orderitem-porfile-content {
+  margin-top: 20px;
+}
+
+.orderitem-porfile-content h5 {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.orderitem-porfile-content span {
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.orderitem-wrap-right {
+  display: flex;
+
+  padding: 10px;
+  padding-left: 40px;
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+}
+
+.orderitem-wrap-right button {
+  color: white;
+  /* background-color: var(--navy-color); */
+  border: 1px solid var(--red-color);
+  border-radius: 5px;
+  color: var(--black-color);
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.orderitem-wrap-right button:hover {
+  color: var(--navy-color);
+  background-color: white;
+  border: 1px solid var(--navy-color);
+}
+
+@media (max-width: 1020px) {
+  .OrderItem {
+    width: 900px;
+    padding: 25px;
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 750px) {
+  .OrderItem {
+    width: 600px;
+    padding: 25px;
+    margin-bottom: 24px;
+  }
+}

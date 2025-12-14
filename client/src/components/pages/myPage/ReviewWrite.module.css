@@ -1,0 +1,15 @@
+.review {
+  margin-left: 30px;
+}
+
+@media (max-width: 1020px) {
+  .review {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  .modal {
+    left: 5%;
+  }
+}

@@ -1,0 +1,9 @@
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(120, 120, 120);
+}
+
+.title-wrap {
+  margin-bottom: 20px;
+}

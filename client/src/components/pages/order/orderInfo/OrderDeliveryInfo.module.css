@@ -1,0 +1,217 @@
+/* 배송지 정보 컴포넌트  */
+.orderDeliveryInfo {
+  margin-bottom: 50px;
+}
+
+.orderDeliveryInfo-deliveryChange {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orderDeliveryInfo-deliveryChange h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.orderDeliveryInfo-deliveryChange button {
+  padding: 4px 8px;
+  border: 1px solid #999;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.orderDeliveryInfo-table {
+  font-size: 14px;
+  color: #333;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid #ccc;
+}
+
+.orderDeliveryInfo-table__col1 {
+  width: 150px;
+  border: solid #e4e4e4;
+  border-width: 0 1px 1px 0;
+  padding: 10px 10px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.orderDeliveryInfo-table__col2 {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 16px;
+}
+
+.orderDeliveryInfo-table__memo {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 15px 16px;
+}
+
+.modalChangeAddr {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalChangeAddr-header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.modalChangeAddr-header__close {
+  position: absolute;
+  right: 30px;
+  cursor: pointer;
+}
+
+.modalChangeAddr-section {
+  background-color: rgb(230, 230, 230);
+  padding: 20px;
+}
+
+.defaultAddr {
+  border-bottom: 1px solid white;
+}
+
+.modalChangeAddr-section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modalChangeAddr-section__item {
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.modalChangeAddr-section__item__name {
+  text-align: left;
+  font-size: 18px;
+  color: var(--black-color);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modalChangeAddr-section__item__addr {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.modalChangeAddr-section__item__additionalAddr {
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 18px;
+}
+
+.modalChangeAddr-section__item__phone {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(140, 140, 140);
+  margin-bottom: 12px;
+}
+
+.modalChangeAddr-section__item__memo {
+  text-align: left;
+  font-size: 16px;
+  color: var(--black-color);
+  margin-bottom: 12px;
+}
+
+.modalChangeAddr-section__item__select {
+  text-align: right;
+}
+
+.modalChangeAddr-section__item__select button {
+  color: var(--navy-color);
+
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid var(--navy-color);
+  padding: 5px 18px;
+  border-radius: 5px;
+}
+
+@media (max-width: 1020px) {
+  .orderDeliveryInfo-deliveryChange h4 {
+    font-size: 18px;
+  }
+
+  .orderDeliveryInfo-deliveryChange button {
+    padding: 3px 8px;
+
+    font-size: 12px;
+  }
+
+  .orderDeliveryInfo-table {
+    font-size: 12px;
+  }
+
+  .modalChangeAddr-header {
+    height: 60px;
+
+    font-size: 16px;
+  }
+
+  .modalChangeAddr-section__item {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  .modalChangeAddr-section-title,
+  .modalChangeAddr-section__item__name,
+  .modalChangeAddr-section__item__add,
+  .modalChangeAddr-section__item__additionalAddr,
+  .modalChangeAddr-section__item__phone,
+  .modalChangeAddr-section__item__memo .modalChangeAddr-section__item__memo,
+  .modalChangeAddr-section__item__select button {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .orderDeliveryInfo-deliveryChange h4 {
+    font-size: 16px;
+  }
+
+  .orderDeliveryInfo-deliveryChange button {
+    padding: 2px 8px;
+
+    font-size: 10px;
+  }
+
+  .orderDeliveryInfo-table {
+    font-size: 12px;
+  }
+
+  .modalChangeAddr-header {
+    height: 50px;
+
+    font-size: 14px;
+  }
+
+  .modalChangeAddr-section__item {
+    margin-bottom: 14px;
+    padding: 14px;
+  }
+  .modalChangeAddr-section-title,
+  .modalChangeAddr-section__item__name,
+  .modalChangeAddr-section__item__add,
+  .modalChangeAddr-section__item__additionalAddr,
+  .modalChangeAddr-section__item__phone,
+  .modalChangeAddr-section__item__memo .modalChangeAddr-section__item__memo,
+  .modalChangeAddr-section__item__select button {
+    font-size: 14px;
+  }
+}

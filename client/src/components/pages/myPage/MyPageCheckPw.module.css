@@ -1,0 +1,84 @@
+.MyPageCheckPw {
+  height: 600px;
+}
+
+.checkpw-wrap-title {
+  margin-top: 30px;
+  color: rgb(140, 140, 140);
+  margin-bottom: 30px;
+}
+
+.checkpw-wrap-title span {
+  font-weight: bold;
+  color: var(--navy-color);
+}
+
+.checkpw-wrap-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.checkpw-wrap-item {
+  display: flex;
+  align-items: center;
+  border-top: 3px solid var(--navy-color);
+  border-right: 1px solid var(--navy-color);
+}
+
+.checkpw-wrap-item-border {
+  border-bottom: 1px solid var(--navy-color);
+}
+
+.checkpw-input input {
+  padding: 5px;
+  margin-left: 30px;
+  border: 1px solid var(--navy-color);
+  border-radius: 3px;
+}
+
+.checkpw-input-id input {
+  border: none;
+}
+
+.checkpw-title {
+  font-size: 16px;
+
+  padding: 15px;
+  width: 150px;
+}
+
+.checkpw-wrap-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.checkpw-wrap-button button {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.checkpw-wrap-button button:first-child {
+  background-color: var(--navy-color);
+}
+
+.checkpw-wrap-button button:last-child {
+  background-color: rgb(206, 202, 202);
+}
+
+@media (max-width: 1020px) {
+  .modal {
+    left: 15%;
+  }
+}
+
+@media (max-width: 750px) {
+  .modal {
+    left: 5%;
+  }
+}

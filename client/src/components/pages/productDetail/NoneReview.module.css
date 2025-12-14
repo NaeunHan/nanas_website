@@ -1,0 +1,21 @@
+.noneReview {
+  margin-bottom: 50px;
+  padding: 100px 0;
+  background-color: rgb(230, 230, 230);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.noneReview-content {
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(37, 37, 37);
+}
+
+@media (max-width: 750px) {
+  .noneReview-content {
+    font-size: 16px;
+  }
+}

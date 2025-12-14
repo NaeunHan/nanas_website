@@ -1,0 +1,162 @@
+.product-link:hover {
+  text-decoration: none;
+}
+
+.searchItem-img {
+  width: 100%;
+  height: 250px;
+  border: 1px solid rgb(230, 230, 230);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  cursor: pointer;
+}
+
+.searchItem-img img {
+  width: 100%;
+  height: 100%;
+
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+.searchItem-img img:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.searchItem-info {
+  margin: 20px 0;
+}
+
+.searchItem-info-mallname {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+  text-align: left;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.searchItem-info-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+
+  margin-bottom: 10px;
+  height: 50px;
+  line-height: 1.5;
+
+  cursor: pointer;
+}
+
+.searchItem-info-price {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(140, 140, 140);
+  text-decoration: line-through;
+  margin-bottom: 10px;
+}
+
+.searchItem-info-realPrice {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--black-color);
+
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.searchItem-info-realPrice__percent {
+  color: var(--red-color);
+  margin-left: 10px;
+}
+
+.searchItem-info-review {
+  text-align: left;
+  font-size: 14px;
+  color: rgb(160, 160, 160);
+  display: flex;
+  align-items: center;
+}
+
+.searchItem-info-review__star {
+  color: var(--red-color);
+  margin-right: 5px;
+}
+
+.searchItem-info-review__split {
+  margin: 0 10px;
+  color: rgb(220, 220, 220);
+}
+
+.searchItem-info-review__cart {
+  font-size: 30px;
+  flex: 1;
+  text-align: right;
+
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .searchItem-img {
+    height: 150px;
+  }
+
+  .searchItem-info-mallname {
+    font-size: 12px;
+  }
+
+  .searchItem-info-title {
+    font-size: 14px;
+
+    overflow: hidden;
+
+    height: 40px;
+  }
+
+  .searchItem-info-price {
+    font-size: 14px;
+  }
+
+  .searchItem-info-realPrice {
+    font-size: 18px;
+
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
+
+  .searchItem-info-review {
+    font-size: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.5;
+
+    position: relative;
+  }
+
+  .searchItem-info-review__star {
+    display: none;
+  }
+
+  .searchItem-info-review__split {
+    display: none;
+  }
+
+  .searchItem-info-review__cart {
+    font-size: 24px;
+
+    position: absolute;
+    right: 0;
+  }
+}

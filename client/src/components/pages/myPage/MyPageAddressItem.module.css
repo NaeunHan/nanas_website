@@ -1,0 +1,101 @@
+.MyPageAddressItem {
+  width: 800px;
+  border: 1px solid var(--navy-color);
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 25px;
+  align-items: center;
+}
+
+.address-item-addr {
+  width: 800px;
+
+  display: flex;
+
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  align-items: center;
+}
+
+.address-item-addr h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.address-item-addr span:last-child {
+  margin-left: 15px;
+}
+
+.address-item-update {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.address-item-update button {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: var(--navy-color);
+  width: 120px;
+  border: 1px solid var(--navy-color);
+  border-radius: 5px;
+
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* update  */
+
+input {
+  width: 100%;
+}
+
+.address-item-addr span:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  width: 120px;
+}
+
+.address-item-addr span:nth-child(2) {
+  width: 500px;
+}
+
+.address-item-addr input {
+  padding: 10px;
+}
+
+.zipcode-wrap-input {
+  margin-left: 15px;
+}
+
+.search-wrap-button button {
+  font-weight: bold;
+  color: var(--navy-color);
+
+  border: 2px solid var(--navy-color);
+  border-radius: 5px;
+
+  padding: 8px;
+}
+
+.err {
+  margin-left: 140px;
+}
+
+@media (max-width: 750px) {
+  .MyPageAddressItem {
+    width: 620px;
+  }
+
+  .address-item-addr {
+    width: 620px;
+
+    display: flex;
+
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+}

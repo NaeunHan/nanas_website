@@ -1,0 +1,75 @@
+.adminOrder {
+  background-color: white;
+  width: 800px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-right: 40px;
+}
+
+.adminOrder-title {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.adminOrder-orderList {
+  font-size: 12px;
+}
+
+.adminOrder-orderList th {
+  font-weight: bold;
+  background-color: var(--navy-color);
+  color: white;
+  padding: 10px;
+}
+
+.adminOrder-orderList tr {
+  padding: 0 20px;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.adminOrder-orderList td {
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.adminOrder-orderList td:nth-child(1),
+.adminOrder-orderList th:nth-child(1) {
+  width: 5%;
+}
+
+.adminOrder-orderList td:nth-child(2),
+.adminOrder-orderList th:nth-child(2) {
+  width: 15%;
+}
+
+.adminOrder-orderList td:nth-child(3),
+.adminOrder-orderList th:nth-child(3) {
+  width: 10%;
+}
+
+.adminOrder-orderList td:nth-child(4),
+.adminOrder-orderList th:nth-child(4) {
+  width: 20%;
+}
+
+.adminOrder-orderList td:nth-child(5),
+.adminOrder-orderList th:nth-child(5) {
+  width: 10%;
+}
+
+.adminOrder-orderList td:nth-child(6),
+.adminOrder-orderList th:nth-child(6) {
+  width: 20%;
+}
+
+.adminOrder-orderList-search {
+  padding: 4px 8px;
+  border: 1px solid #999;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+}

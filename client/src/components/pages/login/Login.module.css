@@ -1,0 +1,136 @@
+.regist-haader {
+  height: 80px;
+  background-color: #f05556;
+  margin-bottom: 30px;
+  padding-left: 30px;
+
+  display: flex;
+  align-items: center;
+}
+
+.regist-haader h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.form-login {
+  width: 400px;
+  margin: 100px auto;
+  border: 1px solid #ccc;
+
+  padding: 50px 40px;
+  border: 1px solid var(--navy-color);
+  border-radius: 5px;
+}
+.form-login-wrapper {
+  margin: 0 auto;
+}
+.form-login-input,
+.form-login-pw {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.form-login-input input,
+.form-login-pw input {
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-login-input input:focus,
+.form-login-pw input:focus {
+  border: 1px solid #fb9a77;
+}
+
+.form-login-pw {
+  position: relative;
+}
+.form-login-pw-i {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.form-login-handler {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form-login-submit {
+  width: 100%;
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: 1px solid var(--navy-color);
+  background-color: var(--navy-color);
+  color: white;
+
+  cursor: pointer;
+}
+.form-login-links {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.form-login-links a {
+  color: rgb(210, 210, 210);
+  font-size: 14px;
+}
+.form-login-non:hover {
+  text-decoration: none;
+}
+.form-login-non div {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 14px;
+  background-color: #f0f0f0;
+  padding: 10px 18px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-login-easy {
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 10px;
+
+  padding: 20px 0;
+  border-top: 1px solid rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.form-login-easy__title {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  color: rgb(120, 120, 120);
+}
+
+.form-login-easy__img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-login-easy img {
+  width: 34px;
+  height: 34px;
+  cursor: pointer;
+}
+.form-login-banner {
+  text-align: center;
+  background-color: #fb9a77;
+  border-radius: 5px;
+  padding: 30px 30px;
+  color: white;
+  font-weight: bold;
+
+  background-image: url("../../../assets/bannerImage/banner1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

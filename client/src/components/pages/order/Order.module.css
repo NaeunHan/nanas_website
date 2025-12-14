@@ -1,0 +1,76 @@
+.order-title {
+  padding: 20px 0px;
+  margin-bottom: 40px;
+  border-bottom: 5px solid var(--navy-color);
+}
+
+.order-title h3 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+/* 주문페이지 컨트롤러 */
+
+.order-control {
+  padding: 100px 0px;
+  border-top: 5px solid var(--navy-color);
+  text-align: center;
+}
+
+.order-control button {
+  padding: 20px 60px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+  border-radius: 5px;
+}
+
+.order-control-cancle {
+  background-color: #ccc;
+  margin-right: 50px;
+}
+
+.order-control-buy {
+  background-color: var(--navy-color);
+  color: white;
+}
+
+@media (max-width: 1020px) {
+  .order-title {
+    padding: 16px 0px;
+    margin-bottom: 30px;
+  }
+
+  .order-title h3 {
+    font-size: 22px;
+  }
+
+  .order-control {
+    padding: 80px 0px;
+  }
+
+  .order-control button {
+    padding: 12px 40px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 750px) {
+  .order-title {
+    padding: 12px 0px;
+    margin-bottom: 20px;
+  }
+
+  .order-title h3 {
+    font-size: 18px;
+  }
+
+  .order-control {
+    padding: 40px 0px;
+  }
+
+  .order-control button {
+    padding: 10px 30px;
+    font-size: 14px;
+  }
+}

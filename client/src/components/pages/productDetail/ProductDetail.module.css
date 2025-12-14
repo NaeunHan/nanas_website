@@ -1,0 +1,104 @@
+.productDetail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.productDetail-product__img {
+  width: 600px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+
+.productDetail-product-info1 {
+  width: 600px;
+  border: 5px solid #ccc;
+  padding: 50px;
+
+  display: flex;
+  margin-bottom: 5px;
+
+  align-items: center;
+  flex-direction: column;
+}
+
+.productDetail-product-info1__icon {
+  color: var(--red-color);
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.productDetail-product-info1__changeInfo__title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 100px 20px 100px;
+  margin-bottom: 20px;
+
+  border-bottom: 1px solid #ccc;
+}
+
+.productDetail-product-info1__changeInfo__content {
+  line-height: 2;
+  color: rgb(126, 126, 126);
+  margin-bottom: 20px;
+}
+
+.productDetail-product-info1__changeInfo__content__strong {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+}
+
+.productDetail-product-info1__changeInfo__content__img {
+  width: 450px;
+  height: 450px;
+}
+
+.productDetail-product-info1__changeInfo__content__assistance {
+  width: 600px;
+  line-height: 1.2;
+  text-align: start;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.productDetail-product-info2__title {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.productDetail-product-info2__icon {
+  font-size: 30px;
+}
+
+.productDetail-product-info2__table {
+  width: 600px;
+  border: 1px solid rgb(226, 226, 226);
+}
+
+.productDetail-product-info2__table th {
+  border-right: 1px solid rgb(226, 226, 226);
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding: 12px 0;
+  font-weight: bold;
+}
+
+.productDetail-product-info2__table td {
+  border-bottom: 1px solid rgb(226, 226, 226);
+  padding-left: 20px;
+}
+
+.productDetail-product-info2__table tr:nth-child(2) {
+  height: 200px;
+}
+
+.productDetail-product-info2__assistance {
+  width: 600px;
+  text-align: end;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}

@@ -1,0 +1,191 @@
+.productsBestTen {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 20px;
+  padding: 20px 100px 20px 20px;
+
+  border: 1px solid rgb(230, 230, 230);
+}
+
+.product-img {
+  width: 250px;
+  height: 250px;
+
+  overflow: hidden;
+  border: 1px solid rgb(230, 230, 230);
+  margin-right: 50px;
+}
+
+.product-img img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  transition: 0.4s;
+}
+
+.product-img img:hover {
+  transform: scale(1.1);
+  transition: 0.6s;
+}
+
+.product-content {
+  flex: 1;
+}
+
+.product-content p {
+  text-align: left;
+}
+
+.product-content-mall {
+  font-weight: bold;
+  font-size: 18px;
+  color: rgb(160, 160, 160);
+  border-bottom: 1px solid rgb(230, 230, 230);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.product-content-title {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-bottom: 20px;
+}
+
+.product-content-price {
+  text-align: left;
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(140, 140, 140);
+  text-decoration: line-through;
+  margin-bottom: 5px;
+}
+
+.product-content-realPrice {
+  font-size: 28px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.product-content-percent {
+  color: var(--red-color);
+  margin-left: 18px;
+}
+
+.product-conten-review {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(160, 160, 160);
+  display: flex;
+  align-items: center;
+}
+
+.product-conten-review__star {
+  color: var(--red-color);
+  margin-right: 5px;
+}
+
+.product-conten-review__split {
+  margin: 0 10px;
+  color: rgb(220, 220, 220);
+}
+
+.product-conten-review__cart {
+  font-size: 30px;
+  flex: 1;
+  text-align: right;
+
+  cursor: pointer;
+}
+
+@media (max-width: 1020px) {
+  .productsBestTen {
+    padding: 20px 50px 20px 20px;
+  }
+  .product-img {
+    width: 200px;
+    height: 200px;
+
+    margin-right: 40px;
+  }
+
+  .product-content-mall {
+    font-weight: bold;
+    font-size: 14px;
+
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+
+  .product-content-title {
+    font-size: 18px;
+
+    margin-bottom: 16px;
+  }
+
+  .product-content-price {
+    font-size: 16px;
+  }
+
+  .product-content-realPrice {
+    font-size: 20px;
+
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+  }
+
+  .product-conten-review {
+    font-size: 14px;
+  }
+
+  .product-conten-review__cart {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 750px) {
+  .productsBestTen {
+    padding: 10px 30px 10px 10px;
+  }
+  .product-img {
+    width: 150px;
+    height: 150px;
+
+    margin-right: 40px;
+  }
+
+  .product-content-mall {
+    font-size: 12px;
+
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product-content-title {
+    font-size: 16px;
+
+    margin-bottom: 10px;
+  }
+
+  .product-content-price {
+    font-size: 14px;
+  }
+
+  .product-content-realPrice {
+    font-size: 16px;
+
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+  .product-conten-review {
+    font-size: 10px;
+  }
+
+  .product-conten-review__cart {
+    font-size: 20px;
+  }
+}

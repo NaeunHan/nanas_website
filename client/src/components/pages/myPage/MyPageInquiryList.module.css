@@ -1,0 +1,40 @@
+.MyPageInquiryList {
+  margin-left: 30px;
+}
+
+.inquiryList-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.inquiry-list-wrap-table {
+  width: 1000px;
+}
+
+.inquirylist-content-null {
+  margin-top: 50px;
+}
+
+@media (max-width: 1020px) {
+  .MyPageInquiryList {
+    margin-left: 0px;
+  }
+
+  .inquiryList-title {
+    border-bottom: 1px solid rgb(220, 220, 220);
+  }
+
+  .inquiry-list-wrap-table {
+    width: 880px;
+  }
+}
+
+@media (max-width: 750px) {
+  .inquiry-list-wrap-table {
+    width: 620px;
+  }
+}

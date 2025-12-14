@@ -1,0 +1,165 @@
+.orderComplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  padding: 50px 50px 100px 50px;
+}
+
+.orderComplete-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.orderComplete-recriptWrap {
+  background-color: white;
+  padding: 50px 20px;
+  width: 100%;
+}
+
+.orderComplete-recript-recript {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  letter-spacing: 22px;
+  text-align: center;
+}
+
+.orderComplete-recript-section {
+  border-bottom: 2px dashed rgb(180, 180, 180);
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.orderComplete-recript-company {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.orderComplete-recript-date {
+  font-size: 20px;
+  text-align: start;
+}
+
+.orderComplete-recript-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.orderComplete-recript {
+  margin-bottom: 50px;
+}
+
+.orderComplete-recript-deliveryChange {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.orderComplete-recript-deliveryChange h4 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.orderComplete-recript-deliveryChange button {
+  padding: 4px 8px;
+  border: 1px solid #999;
+  font-family: inherit;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.orderComplete-recript-table {
+  font-size: 14px;
+  color: #333;
+  border-collapse: collapse;
+  width: 100%;
+  border-top: 2px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.orderComplete-recript-table__col1 {
+  width: 150px;
+  border: solid #e4e4e4;
+  border-width: 0 1px 1px 0;
+  padding: 10px 10px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.orderComplete-recript-table__col2 {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 10px 16px;
+}
+
+.orderComplete-recript-table__memo {
+  border-bottom: 1px solid #e4e4e4;
+  padding: 15px 16px;
+}
+
+.orderComplete-recript__totalPrice {
+  color: red;
+  font-weight: bold;
+}
+
+.orderComplete-control {
+  margin-top: 50px;
+}
+
+.orderComplete-control button {
+  padding: 20px 40px;
+  background-color: var(--navy-color);
+  color: white;
+  border-radius: 5px;
+}
+
+.orderComplete-barcode {
+  text-align: center;
+}
+
+.orderComplete-barcode img {
+  width: 350px;
+  height: 100px;
+}
+
+@media (max-width: 1020px) {
+  .orderComplete-title {
+    font-size: 24px;
+  }
+  .orderComplete-recript-company,
+  .orderComplete-recript-recript {
+    font-size: 26px;
+  }
+
+  .orderComplete-recript-date {
+    font-size: 16px;
+  }
+
+  .orderComplete-barcode img {
+    width: 300px;
+  }
+}
+
+@media (max-width: 750px) {
+  .orderComplete-title {
+    font-size: 20px;
+  }
+  .orderComplete-recript-company,
+  .orderComplete-recript-recript {
+    font-size: 22px;
+  }
+
+  .orderComplete-recript-date {
+    font-size: 14px;
+  }
+
+  .orderComplete-barcode img {
+    width: 220px;
+  }
+}

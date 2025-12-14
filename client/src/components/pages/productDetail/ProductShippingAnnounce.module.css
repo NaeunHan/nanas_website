@@ -1,0 +1,137 @@
+.productShippingAnnounce {
+  padding: 0 100px;
+}
+
+.productShippingAnnounce-section {
+  margin-bottom: 100px;
+}
+
+.productShippingAnnounce-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.productShippingAnnounce-table {
+  font-size: 16px;
+}
+
+.productShippingAnnounce-table tr {
+  border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.productShippingAnnounce-table th {
+  padding: 12px 10px;
+  text-align: left;
+  line-height: 1.4;
+  color: rgb(118, 118, 118);
+  width: 300px;
+}
+
+.productShippingAnnounce-table td {
+  color: rgb(67, 67, 67);
+}
+
+.productShippingAnnounce-section-info__title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.productShippingAnnounce-section-info__content {
+  text-align: left;
+  font-size: 16px;
+  color: rgb(122, 122, 122);
+  margin-bottom: 20px;
+}
+
+.productShippingAnnounce-section-info__list {
+  font-size: 16px;
+  list-style: disc;
+  padding-left: 22px;
+}
+
+.productShippingAnnounce-section-info__list__item {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.productShippingAnnounce-section-info__list__item__refer {
+  font-size: 14px;
+  margin-left: 10px;
+  color: rgb(122, 122, 122);
+}
+
+@media (min-width: 751px) and (max-width: 1020px) {
+  .productShippingAnnounce-section {
+    margin-bottom: 80px;
+  }
+
+  .productShippingAnnounce-title {
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+  }
+
+  .productShippingAnnounce-table {
+    font-size: 14px;
+  }
+
+  .productShippingAnnounce-table th {
+    padding: 10px 10px;
+  }
+
+  .productShippingAnnounce-section-info__title {
+    font-size: 16px;
+  }
+
+  .productShippingAnnounce-section-info__content {
+    font-size: 14px;
+  }
+
+  .productShippingAnnounce-section-info__list {
+    font-size: 14px;
+  }
+
+  .productShippingAnnounce-section-info__list__item__refer {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .productShippingAnnounce-section {
+    margin-bottom: 50px;
+  }
+
+  .productShippingAnnounce-title {
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+  }
+
+  .productShippingAnnounce-table {
+    font-size: 10px;
+  }
+
+  .productShippingAnnounce-table td {
+    width: 50%;
+  }
+
+  .productShippingAnnounce-section-info__title {
+    font-size: 14px;
+  }
+
+  .productShippingAnnounce-section-info__content {
+    font-size: 12px;
+  }
+
+  .productShippingAnnounce-section-info__list {
+    font-size: 12px;
+  }
+
+  .productShippingAnnounce-section-info__list__item__refer {
+    font-size: 10px;
+  }
+}

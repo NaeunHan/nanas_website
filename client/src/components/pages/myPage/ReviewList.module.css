@@ -1,0 +1,59 @@
+.ReviewList {
+  margin-left: 30px;
+}
+
+.review-list-wrap-table {
+  width: 1000px;
+}
+
+.review-content-null {
+  margin-top: 50px;
+}
+
+.reviewList-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(220, 220, 220);
+}
+
+.select-wrap {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+}
+
+.select-wrap {
+  outline: none;
+
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1020px) {
+  .ReviewList {
+    margin-left: 0px;
+  }
+
+  .review-list-wrap-table {
+    width: 880px;
+  }
+
+  .review-content-null {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 750px) {
+  .review-list-wrap-table {
+    width: 620px;
+  }
+
+  .review-content-null {
+    margin-top: 16px;
+  }
+}

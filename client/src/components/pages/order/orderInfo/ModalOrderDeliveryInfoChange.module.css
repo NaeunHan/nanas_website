@@ -1,0 +1,147 @@
+/* 배송정보 변경 모달 컴포넌트 */
+.modalOrderDeliveryInfoChange {
+  border-color: var(--navy-color);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modalOrderDeliveryInfoChange header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modalOrderDeliveryInfoChange-inputWrap {
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  padding: 40px 20px;
+}
+
+.modalOrderDeliveryInfoChange-inputWrap input::placeholder {
+  color: #ccc;
+}
+
+.modalOrderDeliveryInfoChange-input {
+  border: 1px solid #ccc;
+
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.modalOrderDeliveryInfoChange-iconWrap {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+  border-right: 1px solid #ccc;
+}
+
+.modalOrderDeliveryInfoChange-icon {
+  color: #ccc;
+  font-size: 22px;
+}
+
+.modalOrderDeliveryInfoChange-input__input {
+  flex: 1;
+}
+
+.modalOrderDeliveryInfoChange-input__input input,
+.modalOrderDeliveryInfoChange-input__readOnly input {
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  border: 0;
+}
+
+.modalOrderDeliveryInfoChange-enteredAddrWrap {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.modalOrderDeliveryInfoChange-input__readOnly {
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+.modalOrderDeliveryInfoChange-enteredAddr-btn__search {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--red-color);
+  cursor: pointer;
+  background-color: white;
+}
+
+.modalOrderDeliveryInfoChange-err {
+  font-size: 16px;
+  color: var(--red-color);
+}
+
+.modalOrderDeliveryInfoChange-control {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+  border-radius: 0 0 18px 18px;
+  background-color: rgb(230, 230, 230);
+}
+
+.modalOrderDeliveryInfoChange-control button {
+  padding: 16px 32px;
+
+  border-radius: 5px;
+}
+
+.modalOrderDeliveryInfoChange-control__cancle {
+  background-color: white;
+  margin-right: 30px;
+}
+
+.modalOrderDeliveryInfoChange-control__storage {
+  background-color: var(--navy-color);
+  color: white;
+}
+
+@media (max-width: 1020px) {
+  .modalOrderDeliveryInfoChange header {
+    height: 60px;
+    font-size: 16px;
+  }
+
+  .modalOrderDeliveryInfoChange-err {
+    font-size: 14px;
+  }
+
+  .modalOrderDeliveryInfoChange-control {
+    padding-bottom: 30px;
+  }
+
+  .modalOrderDeliveryInfoChange-control button {
+    padding: 8px 22px;
+
+    border-radius: 5px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .modalOrderDeliveryInfoChange header {
+    font-size: 14px;
+  }
+
+  .modalOrderDeliveryInfoChange-err {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,9 @@
+.CrlWrite {
+  margin-left: 30px;
+}
+
+@media (max-width: 1020px) {
+  .CrlWrite {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,18 @@
+.products {
+  padding: 50px 16px;
+
+  border-top: 1px solid #ececec;
+}
+
+.products h2 {
+  font-size: 24px;
+  font-weight: bold;
+
+  margin-bottom: 18px;
+}
+
+.products-wrap {
+  display: flex;
+
+  justify-content: space-between;
+}

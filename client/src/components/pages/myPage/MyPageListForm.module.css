@@ -1,0 +1,103 @@
+.pointlist {
+  margin-top: 50px;
+}
+
+.pointlist table {
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  border: 1px solid var(--navy-color);
+}
+
+.pointlist thead {
+  background-color: var(--navy-color);
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.pointlist tr,
+.pointlist td {
+  border: 1px solid rgb(220, 220, 220);
+}
+
+.pointlist td {
+  padding: 10px;
+}
+
+.pointlist td:first-child {
+  width: 15%;
+}
+
+.pointlist td:nth-child(2) {
+  width: 30%;
+}
+
+.pointlist td:nth-child(3) {
+  width: 35%;
+}
+.pointlist tbody tr:nth-child(1) td:last-child {
+  color: rgb(7, 212, 51);
+}
+
+.pointlist tbody tr:nth-child(2) td:last-child {
+  color: red;
+}
+
+.pointlist tbody tr:hover {
+  background-color: var(--gray-color);
+}
+
+/* list FORM */
+.MyPageListForm {
+  margin-top: 50px;
+}
+
+.MyPageListForm table {
+  text-align: center;
+  width: 100%;
+  border: 1px solid var(--navy-color);
+}
+
+.MyPageListForm thead {
+  background-color: var(--navy-color);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.MyPageListForm tr,
+.MyPageListForm td {
+  border: 1px solid var(--navy-color);
+  font-size: 16px;
+}
+
+.MyPageListForm td {
+  padding: 10px;
+}
+
+.MyPageListForm td:first-child {
+  width: 15%;
+}
+
+.MyPageListForm td:nth-child(2) {
+  width: 30%;
+}
+
+.MyPageListForm td:nth-child(3) {
+  width: 35%;
+}
+.MyPageListForm tbody td:nth-child(1) {
+  color: var(--red-color);
+}
+
+.MyPageListForm td:nth-child(2) button {
+  font-size: 16px;
+  font-weight: bold;
+
+  text-decoration: underline;
+}
+
+.MyPageListForm tbody tr:hover {
+  background-color: var(--gray-color);
+}

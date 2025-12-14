@@ -1,0 +1,9 @@
+.MyPageInquiry {
+  margin-left: 30px;
+}
+
+@media (max-width: 1020px) {
+  .MyPageInquiry {
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,134 @@
+.modalConfirmation {
+  border-color: var(--navy-color);
+
+  display: flex;
+  flex-direction: column;
+
+  margin-bottom: 50px;
+}
+
+.modalConfirmation header {
+  width: 100%;
+  height: 50px;
+  background-color: var(--navy-color);
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 18px;
+
+  margin-bottom: 20px;
+}
+
+.confirmation-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  place-items: center;
+  row-gap: 20px;
+  margin: 50px;
+}
+
+.confirmation-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirmation-img {
+  border: 1px solid #ccc;
+  height: 80px;
+  width: 80px;
+}
+
+.confirmation-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.confirmation-item input {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.confirmation-userInfo-wrap {
+  padding-bottom: 30px;
+  margin: 0 50px;
+  border-top: 1px solid #ccc;
+}
+
+.confirmation-userInfo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 40px;
+
+  border-bottom: 1px solid #ececec;
+}
+
+.confirmation-userInfo-title {
+  width: 120px;
+  height: 100%;
+  padding-left: 10px;
+  background-color: #ececec;
+
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+}
+
+.confirmation-userInfo-input {
+  margin-left: 10px;
+}
+
+.confirmation-caluse {
+  margin: 30px 50px;
+}
+
+.confirmation-caluse-itemWrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.confirmation-caluse-item {
+  height: 60px;
+  width: 280px;
+
+  padding: 0 10px;
+
+  display: flex;
+  align-items: center;
+
+  border: 1px solid #ccc;
+
+  font-size: 12px;
+}
+
+.confirmation-caluse-item input {
+  margin: 5px;
+}
+
+.confirmation-caluse-item button {
+  font-size: 8px;
+}
+
+.confirmation-control {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.confirmation-control .confirmation-btn-cancel {
+  background-color: #ececec;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.confirmation-control .confirmation-btn-confirm {
+  background-color: var(--navy-color);
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+}
