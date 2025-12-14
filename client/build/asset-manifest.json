@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.40d46080.css",
+    "main.js": "/static/js/main.af1229f7.js",
+    "static/media/banner3.jpg": "/static/media/banner3.fc7ac51f4bebc768e465.jpg",
+    "static/media/banner1.jpg": "/static/media/banner1.b77f199809ed82c1fb81.jpg",
+    "static/media/siba.png": "/static/media/siba.403ccdaf2c569371332e.png",
+    "static/media/banner4.jpg": "/static/media/banner4.e4ca5d436da286974e68.jpg",
+    "static/media/best.png": "/static/media/best.e6aeef7d10b74548fcb2.png",
+    "static/media/kakao.png": "/static/media/kakao.44a397d76cb4ffd7c230.png",
+    "static/media/kakaoLogin.png": "/static/media/kakaoLogin.75ebd791cfe77157dd1b.png",
+    "static/media/clothes.png": "/static/media/clothes.5a7e420c9e4ed0bff989.png",
+    "static/media/life.png": "/static/media/life.e843925c728abd08981e.png",
+    "static/media/setting.png": "/static/media/setting.175bcb0df95d0b5b75e2.png",
+    "static/media/sale.png": "/static/media/sale.171e3c066708cde21d5a.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.40d46080.css.map": "/static/css/main.40d46080.css.map",
+    "main.af1229f7.js.map": "/static/js/main.af1229f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40d46080.css",
+    "static/js/main.af1229f7.js"
+  ]
+}
